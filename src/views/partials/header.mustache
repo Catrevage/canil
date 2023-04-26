@@ -18,9 +18,10 @@
 </header>
 <nav>
     <ul>
-        <li class="active"><a href="/">Todos</a></li>
-        <li class=""><a href="/dogs">Cachorros</a></li>
-        <li class=""><a href="/cats">Gatos</a></li>
-        <li class=""><a href="fishes">Peixes</a></li>
+
+        <li class="{{#nav.all}}active{{/nav.all}}"><a href="/">Todos</a></li>
+        <li class="{{#nav.dog}}active{{/nav.dog}}"><a href="/dogs">Cachorros</a></li>
+        <li class="{{#nav.cat}}active{{/nav.cat}}"><a href="/cats">Gatos</a></li>
+        <li class="{{#nav.fish}}active{{/nav.fish}}"><a href="/fishes">Peixes</a></li>
     </ul>
 </nav>
